@@ -1,0 +1,70 @@
+.nav-container{
+    background-color: blue;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-inline: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.cart-btn{
+    position: relative;
+}
+
+.cart-img{
+    height: 3rem;
+    width: 3.5rem;
+}
+
+.cart-label{
+    background-color: red;
+    color: white;
+    width: 1.5rem;
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+    text-align: center;
+    border-radius: 30rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 0.6rem;
+}
+
+ul{
+    display: flex;
+}
+
+li{
+    list-style: none;
+}
+
+.search{
+    padding-right: 20rem;
+}
+
+.search input{
+    width: 30rem; 
+    padding: 0.35rem 0.5rem;
+    border-radius: 0.4rem;
+}
+
+.search input:invalid{
+    border: red solid 3px;
+}
+
+.pages{
+    padding-right: 13rem;
+    padding-left: 6rem;
+}
+
+.pages ul li{
+   padding-right: 2rem; 
+}
+
+.store-title{
+    font-size: 1.3rem; 
+    color: orange; 
+    font-weight: bold  
+}
+
