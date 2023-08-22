@@ -10,6 +10,13 @@
 
 .cart-btn{
     position: relative;
+    cursor: pointer;
+    padding: 0.5rem;
+}
+
+.cart-btn:hover{
+    border: 0.7px solid white;
+    border-radius: 0.3rem;
 }
 
 .cart-img{
@@ -26,8 +33,8 @@
     text-align: center;
     border-radius: 30rem;
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 0.1rem;
+    right: 0.2rem;
     font-size: 0.6rem;
 }
 
@@ -37,6 +44,7 @@ ul{
 
 li{
     list-style: none;
+    cursor: pointer;
 }
 
 .search{
@@ -45,8 +53,9 @@ li{
 
 .search input{
     width: 30rem; 
-    padding: 0.35rem 0.5rem;
+    padding: 0.4rem 0.5rem;
     border-radius: 0.4rem;
+    font-size: 1rem;
 }
 
 .search input:invalid{
@@ -55,7 +64,7 @@ li{
 
 .pages{
     padding-right: 13rem;
-    padding-left: 6rem;
+    padding-left: 4rem;
 }
 
 .pages ul li{
@@ -63,7 +72,7 @@ li{
 }
 
 .store-title{
-    font-size: 1.3rem; 
+    font-size: 1.6rem; 
     color: orange; 
     font-weight: bold  
 }
